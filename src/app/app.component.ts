@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'hello-world';
+  title = 'Ethiopian Airlines';
+
+  subtitle: string = "From .Net BC 5";
+   
+   
+  inputtxt: string = "default input text";
+    
+  
+  changetitle( txt: string): void{
+
+    this.title = txt;
+  }
 }
